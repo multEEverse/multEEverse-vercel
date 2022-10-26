@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("bg-img.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+  .faliure-logo {
+    width: 20%;
+  }
+  
+  .faliure-logo-div {
+    text-align: center;
+    margin: 5% auto 5% auto;
+  }
+  
+  .faliure-title {
+    font-family: "lato";
+    font-weight: 600;
+    margin-bottom: 2%;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .faliure-para {
+    font-family: "lato";
+    color: hsl(0, 0%, 77%);
+  }
+  
+  .faliure-content {
+    text-align: center;
+  }
+  
+  hr {
+    color: hsl(0, 0%, 63%);
+    width: 40vw;
+    margin: 2% auto 2% auto;
+    border: 2px solid hsl(0, 0%, 77%);
+  }
+  
+  .faliure-login-btn {
+    margin: 0.5%;
+  }
+  
+  .faliure-signup-btn {
+    margin: 0.5%;
+  }
+  
+  @media (max-width: 900px) {
+    .faliure-logo {
+      width: 50%;
+    }
+  
+    .faliure-logo-div {
+      text-align: center;
+      margin: 12% auto 12% auto;
+    }
+  
+    .faliure-title {
+      font-family: "lato";
+      font-weight: 600;
+      margin-bottom: 10%;
+      color: hsl(0, 0%, 100%);
+    }
+  
+    .faliure-para {
+      font-family: "lato";
+      color: hsl(0, 0%, 77%);
+    }
+  
+    .faliure-content {
+      text-align: center;
+      width: 90vw;
+      margin: 0 auto 0 auto;
+    }
+  
+    hr {
+      color: hsl(0, 0%, 63%);
+      width: 70vw;
+      margin: 5% auto 5% auto;
+      border: 2px solid hsl(0, 0%, 77%);
+    }
+  
+    .faliure-login-btn {
+      width: 60vw;
+      margin: 3%;
+    }
+  
+    .faliure-signup-btn {
+      width: 60vw;
+      margin: 3%;
+    }
+  }
+  
+  @media (min-width: 1800px) {
+    
+  .faliure-logo {
+      width: 20%;
+    }
+    
+    .faliure-logo-div {
+      text-align: center;
+      margin: 4% auto 4% auto;
+    }
+    
+    .faliure-title {
+      font-family: "lato";
+      font-weight: 600;
+      margin-bottom: 2%;
+      font-size: 2.5rem;
+      color: hsl(0, 0%, 100%);
+    }
+    
+    .faliure-para {
+      font-family: "lato";
+      font-size: 1.5rem;
+      color: hsl(0, 0%, 77%);
+    }
+    
+    .faliure-content {
+      text-align: center;
+    }
+    
+    hr {
+      color: hsl(0, 0%, 63%);
+      width: 40vw;
+      margin: 2% auto 1% auto;
+      border: 2px solid hsl(0, 0%, 77%);
+    }
+    
+    .faliure-login-btn,  .faliure-signup-btn {
+      margin: 0.5%;
+      padding: 0.3% 2% 0.3% 2%;
+    }
+  }
+  

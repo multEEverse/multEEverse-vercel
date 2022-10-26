@@ -1,0 +1,135 @@
+body, html {
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("bg-img.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-logo {
+  width: 20%;
+}
+
+.home-logo-div {
+  text-align: center;
+  margin: 5% auto 5% auto;
+}
+
+.home-title {
+  font-family: "lato";
+  font-weight: 600;
+  margin-bottom: 2%;
+  color: hsl(0, 0%, 100%);
+}
+
+.home-para {
+  font-family: "lato";
+  color: hsl(0, 0%, 87%);
+}
+
+.home-content {
+  text-align: center;
+}
+
+hr {
+  color: hsl(0, 0%, 63%);
+  width: 40vw;
+  margin: 2% auto 2% auto;
+  border: 2px solid hsl(0, 0%, 77%);
+}
+
+.home-login-btn {
+  margin: 0.5%;
+}
+
+.home-signup-btn {
+  margin: 0.5%;
+}
+
+@media (max-width: 900px) {
+  .home-logo {
+    width: 50%;
+  }
+
+  .home-logo-div {
+    text-align: center;
+    margin: 12% auto 12% auto;
+  }
+
+  .home-title {
+    font-family: "lato";
+    font-weight: 600;
+    margin-bottom: 10%;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .home-para {
+    font-family: "lato";
+    color: hsl(0, 0%, 77%);
+  }
+
+  .home-content {
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto 0 auto;
+  }
+
+  hr {
+    color: hsl(0, 0%, 63%);
+    width: 70vw;
+    margin: 5% auto 5% auto;
+    border: 2px solid hsl(0, 0%, 77%);
+  }
+
+  .home-login-btn {
+    width: 60vw;
+    margin: 3%;
+  }
+
+  .home-signup-btn {
+    width: 60vw;
+    margin: 3%;
+  }
+}
+
+@media (min-width: 1800px) {
+  
+.home-logo {
+    width: 20%;
+  }
+  
+  .home-logo-div {
+    text-align: center;
+    margin: 5% auto 4% auto;
+  }
+  
+  .home-title {
+    font-family: "lato";
+    font-weight: 600;
+    margin-bottom: 2%;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .home-para {
+    font-family: "lato";
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 77%);
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  hr {
+    color: hsl(0, 0%, 63%);
+    width: 40vw;
+    margin: 2% auto 1% auto;
+    border: 2px solid hsl(0, 0%, 77%);
+  }
+  
+  .home-login-btn,  .home-signup-btn {
+    margin: 0.5%;
+    padding: 0.3% 2% 0.3% 2%;
+  }
+}
